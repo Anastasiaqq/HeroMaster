@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Online forum</title>
+</head>
+<body>
+    <!-- <div>
+        <div class="ring-big"></div> 
+        <div class="ring-small"></div>
+    </div> -->
+
+    <!-- кольца пришлось отключить во имя избавления от скролла. Помогити. -->
+    <!-- насколько нормально прописывать ховеры в стилях для мобильной версии? -->
+    <header class="header">
+
+        <div ><a href="#" class="header__logo">Gath<span class="header__logo_white">Session</span>.</a></div>
+        <div class="header__menu">
+            <nav class="header__navbar">
+                <ul class="header__navbar_list">
+                    <li><a href="#" class="header__link">Home</a></li>
+                    <li><a href="#" class="header__link">Features</a></li>
+                    <li><a href="#" class="header__link">Blog</a></li>
+                    <li><a href="#" class="header__link">Contact</a></li>
+                    <li><a href="#" class="header__link">About Us</a></li>
+                </ul>
+            </nav>
+            <div class="header__burger">
+                <!-- caninclude говорит, что я не могу вложить див в кнопку, а спанами не получается -->
+                <button class="header__burger_btn" id="header__burger_btn">
+                  <!-- <div class="header__burger_div"></div> -->
+                  <span class="header__burger_span span_long"></span>
+                  <span class="header__burger_span span_middle"></span>
+                  <span class="header__burger_span span_short"></span>
+                </button>
+                <nav class="header__navbar_mob">
+                    <!-- я принудительно отключила скролл-икс у боди, потому что хоть ори - у ссылок ширина на 10 пикселей больше, чем ширина боди -->
+                    <ul class="header__navbar_list_mob">
+                        <li><a href="#" class="header__link header__link_mob">Home</a></li>
+                        <li><a href="#" class="header__link header__link_mob">Features</a></li>
+                        <li><a href="#" class="header__link header__link_mob">Blog</a></li>
+                        <li><a href="#" class="header__link header__link_mob">Contact</a></li>
+                        <li><a href="#" class="header__link header__link_mob">About Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+    <main class="main">
+        <section class="main__content">
+            <div>
+                <div class="ring-big"></div> 
+                <div class="ring-small"></div>
+            </div>
+            <div class="main__content_info">
+                <h1 class="main__content_h1">Build your best community starting from here.</h1>
+                <p class="main__content_text">Meet and communicate with the best people to run projects, events or other activities in a more effective and fun way</p>
+                <div class="main__content_actions">
+                    <a href="#" class="main__content_started">get started</a>
+                    <a href="#" class="main__content_learn">learn more</a>
+                </div>
+                <div class="main__content_options">
+                    <a href="#" class="main__content_optionlink">
+                        <div class="main__content_wrap"><img class="main__content_optionimg" src="/src/assets/icons/comments.svg" alt="comments"></div>
+                        <span class="main__content_optionspan">build community</span>
+                    </a>
+                    <a href="#" class="main__content_optionlink">
+                        <div class="main__content_wrap"><img class="main__content_optionimg" src="/src/assets/icons/schedule.svg" alt=""></div>
+                        <span class="main__content_optionspan">share events</span>
+                    </a>
+                    <a href="#" class="main__content_optionlink">
+                        <div class="main__content_wrap"><img class="main__content_optionimg" src="/src/assets/icons/post.svg" alt=""></div>
+                        <span class="main__content_optionspan">get information</span>
+                    </a>
+                </div>
+            </div>
+            <div class="main__content_gallery">
+                <img class="main__gallery_photo main__gallery_sweater" src="/src/assets/images/orange_sweater.png" alt=""/>
+                 <img class="main__gallery_photo main__gallery_pretty" src="/src/assets/images/pretty_smiling.png" alt=""/>
+                <img class="main__gallery_photo main__gallery_glasses" src="/src/assets/images/glasses_smiling.png" alt=""/>
+                 <img class="main__gallery_photo main__gallery_redhead" src="/src/assets/images/redhead_thinking.png" alt=""/>
+               <img class="main__gallery_photo main__gallery_jacket" src="/src/assets/images/jacket_siling.png" alt=""/>
+            </div>
+        </section>
+
+    </main>
+    <script src="/src/scripts/script.js"></script>
+</body>
+</html>

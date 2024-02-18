@@ -1,0 +1,22 @@
+
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--color-black-500);
+    font-family: var(--font-poppins);
+    position: relative;
+    /* overflow-x: hidden; */
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+.noscroll{
+    overflow: hidden;
+}

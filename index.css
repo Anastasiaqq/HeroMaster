@@ -1,0 +1,6 @@
+@import '/src/assets/fonts/fonts.css';
+@import '/src/assets/style/normalize.css';
+@import './src/assets/style/variables.css';
+@import './src/assets/style/main.css';
+@import './src/blocks/header.css';
+@import './src/blocks/main-block.css'
