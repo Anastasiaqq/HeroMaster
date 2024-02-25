@@ -33,7 +33,7 @@
 .header__navbar {
     display: none;
 }
-.navbar-opened .header__burger {
+.navbar-opened .header {
     position: relative;
 }
 .header__burger_toggle {
@@ -47,7 +47,7 @@
     align-items: flex-end;
     padding-right: 0;
     padding-left: 0;
-    padding-top: 5px;
+    padding-top: 10px;
     width: 70px;
     height: 48px;
     z-index: 2;
@@ -73,6 +73,9 @@
 .noscroll .span_middle {
     opacity: 0;
 
+}
+.noscroll .header__burger_btn {
+    padding-top: 3px;
 }
 .noscroll .span_long {
     transform: rotate(45deg) translate(13px, 13px);
@@ -175,7 +178,7 @@
         white-space: nowrap;
         font-size: 18px;
     }
-    .header__burger {
+    .header__burger_btn {
         display: none;
     }
 }
@@ -192,7 +195,7 @@
         width: 0;
         height: 2px;
         content: '';
-        bottom: 2px;
+        bottom: 7px;
         left:0;
         background-color: var(--color-pink);
         transition: width 0.25s ease-out;
